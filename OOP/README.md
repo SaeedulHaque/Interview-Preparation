@@ -90,7 +90,7 @@ In Python, self is used to refer to the current object instance. It lets the obj
 
 - It’s like pointing at your cake and saying, “This frosting belongs to me!”
 
-### 6. Instance vs Class Variables
+### 6. Static , Instance and Class Variables
 
 Static variable: A static variable is a variable that belongs to the class itself, not to any individual object (instance) created from the class. This means all objects share the same static variable.Changing the static variable in one place affects it for all objects. Static variables are often used to store information that is common to all objects or to keep track of something about the class as a whole (like counting how many objects have been created).
 
