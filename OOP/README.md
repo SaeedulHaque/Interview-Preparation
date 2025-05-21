@@ -1,4 +1,4 @@
-# 📘 Introduction to Object-Oriented Programming (OOP)
+# Introduction to Object-Oriented Programming (OOP)
 
 Object-Oriented Programming (OOP) is a popular programming approach that helps organize and structure code using real-world concepts like **objects** and **classes**. It makes programs easier to build, understand, and maintain—especially as they grow larger and more complex.
 
