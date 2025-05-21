@@ -29,12 +29,9 @@ A class is like a **blueprint**. It defines what an object should know and what 
 
 ```python
 class Car:
-    def __init__(self, brand, model):
-        self.brand = brand
-        self.model = model
+class Cake:
+    pass  # A blueprint for cakes, empty for now
 
-    def drive(self):
-        print(f"{self.brand} {self.model} is driving.")
 ```
 ### 2. **Object**
 An object is a real-world instance of a class. You can create many objects from a single class.
@@ -46,8 +43,8 @@ An object is a real-world instance of a class. You can create many objects from 
 - Each cake can be a little different — one might be chocolate, another vanilla.
 
 ```python
-my_car = Car("Toyota", "Corolla")
-my_car.drive()  # Output: Toyota Corolla is driving.
+cake1 = Cake()  # cake1 is an object (instance) of the Cake class
+print(type(cake1))  # <class '__main__.Cake'>
 ```
 
 ### 3. Constructor (__init__)
@@ -95,6 +92,28 @@ Methods are like functions inside an object (e.g., drive()).
 
 - These are like the "verbs" or functions that define what you can do with the cake.
 
+**Attribite**
+
+```python
+class Cake:
+    def __init__(self):
+        self.flavor = "vanilla"  # flavor is an attribute
+
+cake1 = Cake()
+print(cake1.flavor)  # Output: vanilla
+```
+
+**Method**
+
+```python
+class Cake:
+    def describe(self):
+        print("This is a delicious cake!")
+
+cake1 = Cake()
+cake1.describe()  # Output: This is a delicious cake!
+```
+
 ### 5. The self Keyword
 In Python, self is used to refer to the current object instance. It lets the object access its own attributes and methods.
 
@@ -103,6 +122,17 @@ In Python, self is used to refer to the current object instance. It lets the obj
 - In programming, self means “this exact object” you’re working with.
 
 - It’s like pointing at your cake and saying, “This frosting belongs to me!”
+```python
+class Cake:
+    def __init__(self, flavor):
+        self.flavor = flavor  # self refers to this specific object
+
+    def describe(self):
+        print(f"This cake is {self.flavor} flavored.")
+
+cake1 = Cake("chocolate")
+cake1.describe()  # Output: This cake is chocolate flavored.
+```
 
 ### 6. Static , Instance and Class Variables
 
@@ -132,12 +162,48 @@ Class Variables : A class variable is a variable that belongs to the class itsel
 
 - If the recipe says “Bake at 350°F,” that’s a class variable — same for every cake.
 
-```python
-class Car:
-    wheels = 4  # Class variable
+**Static variable**
 
-    def __init__(self, color):
-        self.color = color  # Instance variable
+```python
+class Cake:
+    cake_count = 0  # static/class variable
+
+    def __init__(self):
+        Cake.cake_count += 1
+
+cake1 = Cake()
+cake2 = Cake()
+print(Cake.cake_count)  # 2
+```
+**Instance Variable**
+
+```python
+class Cake:
+    def __init__(self, flavor):
+        self.flavor = flavor  # instance variable
+
+cake1 = Cake("strawberry")
+cake2 = Cake("vanilla")
+
+print(cake1.flavor)  # strawberry
+print(cake2.flavor)  # vanilla
+```
+***Class variable**
+
+```python
+class Cake:
+    oven_temperature = 350  # class variable shared by all instances
+
+cake1 = Cake()
+cake2 = Cake()
+
+print(cake1.oven_temperature)  # 350
+print(cake2.oven_temperature)  # 350
+
+# Changing via class
+Cake.oven_temperature = 375
+print(cake1.oven_temperature)  # 375
+print(cake2.oven_temperature)  # 375
 ```
 ## Real-Life Use Cases of OOP
 
