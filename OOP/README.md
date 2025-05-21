@@ -38,15 +38,18 @@ class Car:
 ```
 ### 2. **Object**
 An object is a real-world instance of a class. You can create many objects from a single class.
-```python
-my_car = Car("Toyota", "Corolla")
-my_car.drive()  # Output: Toyota Corolla is driving.
-```
+
 - An object is the real cake you make by following the recipe.
 
 - You can bake many cakes from the same recipe.
 
 - Each cake can be a little different — one might be chocolate, another vanilla.
+
+```python
+my_car = Car("Toyota", "Corolla")
+my_car.drive()  # Output: Toyota Corolla is driving.
+```
+
 ### 3. Constructor (__init__)
 The constructor is a special method that gets called when you create a new object. It sets up the object's data.
 
@@ -81,6 +84,12 @@ Methods are like functions inside an object (e.g., drive()).
 ### 5. The self Keyword
 In Python, self is used to refer to the current object instance. It lets the object access its own attributes and methods.
 
+- When you’re working on this particular cake, you need a way to say “Hey, this is my frosting” or “My flavor is vanilla.”
+
+- In programming, self means “this exact object” you’re working with.
+
+- It’s like pointing at your cake and saying, “This frosting belongs to me!”
+
 ### 6. Instance vs Class Variables
 
 Instance Variables: Unique to each object (e.g., a car’s color).
@@ -92,6 +101,12 @@ Class Variables: Shared across all instances of a class (e.g., number of wheels)
 - Your cake might have 2 cups of sugar, while another cake has 1 cup.
 
 - Your cake’s frosting might be chocolate, another’s vanilla.
+
+- Class variables are ingredients or settings shared by all cakes made from the recipe.
+
+- For example, maybe all cakes use the same brand of flour or the oven temperature is fixed for every cake.
+
+- If the recipe says “Bake at 350°F,” that’s a class variable — same for every cake.
 
 ```python
 class Car:
