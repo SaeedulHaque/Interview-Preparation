@@ -92,9 +92,19 @@ In Python, self is used to refer to the current object instance. It lets the obj
 
 ### 6. Instance vs Class Variables
 
-Instance Variables: Unique to each object (e.g., a car’s color).
+Static variable: A static variable is a variable that belongs to the class itself, not to any individual object (instance) created from the class. This means all objects share the same static variable.Changing the static variable in one place affects it for all objects. Static variables are often used to store information that is common to all objects or to keep track of something about the class as a whole (like counting how many objects have been created).
 
-Class Variables: Shared across all instances of a class (e.g., number of wheels).
+Instance Variables : An instance variable is a variable that belongs to a specific object (instance) created from a class. Each object has its own copy of these variables. Changing an instance variable affects only that particular object. Instance variables store data unique to each object.
+
+Class Variables : A class variable is a variable that belongs to the class itself, not to any individual object. All objects created from the class share the same class variable. Changing the class variable affects it for all objects. Class variables are used to store data or settings that should be consistent across all objects.
+
+- You bake many cakes (objects) using that recipe.
+
+- Now, say you want to keep track of how many cakes have been baked so far.
+
+- This number is shared across all cakes, not just one specific cake.
+
+- This shared number is like a static variable: it belongs to the recipe, not to any single cake.
 
 - Instance variables are the actual ingredients amounts and choices for your particular cake.
 
