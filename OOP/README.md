@@ -57,6 +57,20 @@ The constructor is a special method that gets called when you create a new objec
 
 - When you decide to bake, you start following the recipe step-by-step.
 
+```python
+class Cake:
+    def __init__(self, flavor, frosting):
+        # These are instance variables initialized when object is created
+        self.flavor = flavor
+        self.frosting = frosting
+    def describe(self):
+        print(f"This cake is {self.flavor} flavored with {self.frosting} frosting.")
+# Creating an object of the Cake class
+my_cake = Cake("vanilla", "chocolate")
+# Calling a method on the object
+my_cake.describe()
+```
+
 This process creates the actual cake (object) with its specific flavor and size.
 ### 4. Attributes and Methods
 Attributes are like variables inside an object (e.g., brand, model).
