@@ -114,6 +114,35 @@ OOP is used in almost every field of software development:
 
 - Start with understanding how classes, objects, attributes, and methods work.
 
+## Comparison among popular languages
+
+| Feature / Aspect               | **Java**                                          | **C++**                                     | **Python**                                                |
+| ------------------------------ | ------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------- |
+| **Language Type**              | Object-oriented, class-based                      | Procedural + Object-oriented                | Multi-paradigm: Object-oriented, procedural, functional   |
+| **Compilation**                | Compiled to bytecode, runs on JVM                 | Compiled to native machine code             | Interpreted (can be compiled with tools like PyInstaller) |
+| **Platform Dependency**        | Platform-independent (via JVM)                    | Platform-dependent                          | Platform-independent (requires Python interpreter)        |
+| **Syntax Complexity**          | Verbose, statically typed                         | Complex (due to pointers, templates)        | Simple, dynamically typed                                 |
+| **Memory Management**          | Automatic Garbage Collection                      | Manual (via `new` and `delete`)             | Automatic Garbage Collection                              |
+| **Multiple Inheritance**       | Not directly supported (uses interfaces)          | Supported (can lead to diamond problem)     | Supported with Method Resolution Order (MRO)              |
+| **Support for OOP**            | Fully OOP (everything inside class)               | Supports OOP + procedural                   | Flexible: OOP is optional                                 |
+| **Pointers**                   | Not supported (for security and simplicity)       | Fully supported                             | Not supported                                             |
+| **Operator Overloading**       | Not supported                                     | Supported                                   | Supported (using magic methods like `__add__`)            |
+| **Templates / Generics**       | Generics (type-safe collections)                  | Templates                                   | Uses duck typing, and generics via `typing` module        |
+| **Exception Handling**         | Mandatory for checked exceptions                  | Optional                                    | Optional                                                  |
+| **Performance**                | Moderate (JVM overhead)                           | High (native execution)                     | Slower (due to interpretation)                            |
+| **Standard Library Richness**  | Large, especially for enterprise and GUI          | Moderate, more low-level                    | Very rich, especially in data science and web             |
+| **GUI Support**                | JavaFX, Swing, AWT                                | Qt, wxWidgets, MFC                          | Tkinter, PyQt, Kivy, etc.                                 |
+| **Concurrency Model**          | Threads with native and `java.util.concurrent`    | Low-level threads, more complex             | Threads (GIL-bound), multiprocessing                      |
+| **Access Modifiers**           | `public`, `private`, `protected`, package-private | `public`, `private`, `protected`            | Naming convention (`_protected`, `__private`)             |
+| **Virtual Functions**          | All non-static methods are virtual by default     | Explicit with `virtual` keyword             | All methods are virtual by default                        |
+| **Interface Support**          | Yes, via `interface` keyword                      | No direct support (uses abstract classes)   | Uses Abstract Base Classes (`abc` module)                 |
+| **Abstract Classes & Methods** | Yes                                               | Yes                                         | Yes (via `abc` module)                                    |
+| **Code Verbosity**             | High                                              | Moderate to High                            | Low                                                       |
+| **Community & Ecosystem**      | Huge (enterprise apps, Android)                   | Mature (system-level programming, game dev) | Massive (AI, web, automation, scripting)                  |
+| **Use Cases**                  | Web, enterprise, Android, desktop                 | System/software programming, game engines   | Web, AI/ML, scripting, data science, automation           |
+| **Compilation Time**           | Slower than C++                                   | Fast (compiles to native binaries)          | No compilation needed (runs directly)                     |
+
+
 ## Helpful and Relevant Sources
 
 1. **Python OOP Documentation :** https://docs.python.org/3/tutorial/classes.html
