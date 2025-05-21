@@ -2,11 +2,11 @@
 
 Object-Oriented Programming (OOP) is a popular programming approach that helps organize and structure code using real-world concepts like **objects** and **classes**. It makes programs easier to build, understand, and maintain—especially as they grow larger and more complex.
 
-> ✅ This guide focuses on the **fundamentals of OOP**. (We’ll cover the **4 pillars** — Encapsulation, Inheritance, Polymorphism, and Abstraction — later.)
+> This guide focuses on the **fundamentals of OOP**. 
 
 ---
 
-## 🧠 What is OOP?
+## What is OOP?
 
 OOP stands for **Object-Oriented Programming**. It's a way of programming where we model things as **objects** — each with their own **data (attributes)** and **actions (methods)**.
 
@@ -14,9 +14,9 @@ Imagine a program as a group of things (like cars, people, or animals), each doi
 
 ---
 
-## 🧱 Core Concepts of OOP
+## Core Concepts of OOP
 
-### 1. 🧩 **Class**
+### 1. **Class**
 A class is like a **blueprint**. It defines what an object should know and what it should be able to do.
 
 ```python
@@ -74,11 +74,11 @@ OOP is used in almost every field of software development:
 
 | Benefit                | Description                                          |
 | ---------------------- | ---------------------------------------------------- |
-| 🔄 Reusability         | Use classes across multiple projects.                |
-| 🔧 Maintainability     | Easily fix or update code in small parts.            |
-| 🚀 Scalability         | Add new features without rewriting everything.       |
-| 🧠 Real-world modeling | Code looks and behaves like real-world entities.     |
-| 🧩 Modularity          | Break large problems into smaller, manageable parts. |
+|  Reusability         | Use classes across multiple projects.                |
+|  Maintainability     | Easily fix or update code in small parts.            |
+|  Scalability         | Add new features without rewriting everything.       |
+|  Real-world modeling | Code looks and behaves like real-world entities.     |
+|  Modularity          | Break large problems into smaller, manageable parts. |
 
 ## OOP vs Procedural Programming
 
