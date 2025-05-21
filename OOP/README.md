@@ -28,7 +28,6 @@ A class is like a **blueprint**. It defines what an object should know and what 
 - But the recipe itself is not the cake — it’s just the instructions.
 
 ```python
-class Car:
 class Cake:
     pass  # A blueprint for cakes, empty for now
 
@@ -92,7 +91,7 @@ Methods are like functions inside an object (e.g., drive()).
 
 - These are like the "verbs" or functions that define what you can do with the cake.
 
-**Attribite**
+**Attribute**
 
 ```python
 class Cake:
