@@ -146,8 +146,8 @@ OOP is used in almost every field of software development:
 ## Helpful and Relevant Sources
 
 1. **Python OOP Documentation :** https://docs.python.org/3/tutorial/classes.html
-2. **Python OOP Documentation :** https://docs.oracle.com/javase/tutorial/java/concepts/
-3. **Python OOP Documentation :** https://en.cppreference.com/w/cpp/language/classes
+2. **Java OOP Documentation :** https://docs.oracle.com/javase/tutorial/java/concepts/
+3. **C++ OOP Documentation :** https://en.cppreference.com/w/cpp/language/classes
 4. **GeeksforGeeks – OOP Concepts :** https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
 5. **TutorialsPoint – OOP Concepts :** https://www.tutorialspoint.com/java/java_object_classes.htm
 6. **W3Schools Python OOP :** https://www.w3schools.com/python/python_classes.asp
