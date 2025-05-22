@@ -69,9 +69,9 @@ my_cake.describe()
 
 This process creates the actual cake (object) with its specific flavor and size.
 ### 4. Attributes and Methods
-Attributes are like variables inside an object (e.g., brand, model).
+Attributes are like variables inside an object.
 
-Methods are like functions inside an object (e.g., drive()).
+Methods are like functions inside an object.
 
 - Attributes are the ingredients and properties of the cake.
 
